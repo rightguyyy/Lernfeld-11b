@@ -1,4 +1,5 @@
 ---
+css: ../css/style.css
 date: Schuljahr 2025/2026
 lang: de-DE
 subtitle: Lernfeld 11b -- Betrieb und Sicherheit vernetzter Systeme
