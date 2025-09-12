@@ -30,13 +30,12 @@ Ein Auszug aus der Strukturanalyse liegt bereits vor.
 a)  Die Schutzbedarfsanalyse ist Teil des Sicherheitsprozesses. Ordnen
     Sie die Reihenfolge der Teilaspekte des Sicherheitsprozesses.
 
+    - Leitlinie zur Informationssicherheit
     - Organisation des Sicherheitéprozesses
 
     - Sicherheitsprozess initiiert
 
     - Erstellung einer Sicherheitskonzeption
-
-    - Leitlinie zur Informationssicherheit
 
     - Sicherheitsprozess verbessern
 
