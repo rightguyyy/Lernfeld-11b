@@ -11,15 +11,21 @@ title: Netzwerk -- Sicherheitsrelevante Anforderungen 3
 
 Erläutern Sie folgende drei Befehle der Betriebssystem-Kommandozeile.
 
-a)  ping
+a) ping* 
+Mit `ping` wird geprüft, ob ein Zielrechner im Netzwerk erreichbar ist.  
+Es sendet ICMP-Echo-Anfragen und misst die Antwortzeit.  
+So lassen sich Verbindungsprobleme oder Paketverluste erkennen.  
 
-<!-- -->
+b) nslookup
+Mit `nslookup` lassen sich DNS-Abfragen durchführen.  
+Man kann prüfen, welche IP-Adresse zu einem Domainnamen gehört oder umgekehrt.  
+Das hilft, DNS-Probleme zu analysieren.  
 
-b)  nslookup
+c) tracert / traceroute 
+Mit `tracert` (Windows) bzw. `traceroute` (Linux/Unix) wird der Weg der Pakete zum Zielrechner angezeigt.  
+Es listet die Router (Hops) auf, die die Daten durchlaufen.  
+So lässt sich feststellen, wo es Verzögerungen oder Ausfälle im Netzwerkpfad gibt.  
 
-<!-- -->
-
-c)  tracert/traceroute
 
 ## Aufgabe 2
 
@@ -28,7 +34,7 @@ englischen Informationstextes über SDN und Netzwerkvirtualisierung und
 bearbeiten Sie folgende Teilaufgaben.
 
 ::: {.frame}
-![](images/sdn.png)
+![](sdn.png)
 :::
 
 ::: {.frame}
@@ -84,30 +90,35 @@ bearbeiten Sie folgende Teilaufgaben.
 
 a)  Geben Sie dem Schaubild eine Überschrift.
 
-<!-- -->
+Architektur von Software-defined Networking (SDN) und Netzwerkvirtualisierung  
 
 b)  Was ist der Grundansatz von SDN hinsichtlich der Geräte und der
     Netzwerksteuerung?
 
-<!-- -->
+Die Steuerungslogik wird von den Geräten (Switches, Router, Gateways) entkoppelt und zentral durch Software gesteuert. Geräte übernehmen nur noch die Weiterleitung.
 
 c)  Aus welchen Schichten besteht die Netzwerkvirtualisierung?
 
-<!-- -->
+- Anwendungsschicht (Application Layer)  
+- Steuerungsschicht (Control Layer)  
+- Infrastrukturschicht (Infrastructure Layer)
 
 d)  Welche Netzwerkfunktionen werden in der Anwendungsschicht
     bereitgestellt?
 
-<!-- -->
+WAN, Firewalls, Load Balancing, WAN-Optimierung, Authentifizierung, Application Delivery Controller (ADC).  
 
 e)  Was leistet die Steuerungsschicht?
 
-<!-- -->
+Der SDN-Controller verwaltet Richtlinien und den Datenverkehr. Er verbindet Anwendungen mit der Infrastruktur und leitet Anfragen über die Southbound-API an die Geräte weiter.  
 
 f)  In welcher Schicht sind die physischen Switches und Router
     angesiedelt?
 
-<!-- -->
+Infrastrukturschicht (Infrastructure Layer). 
 
 g)  Was ist der Unterschied zwischen der Northbound-API und der
     Southbound-API?
+
+- Northbound-API: Kommunikation zwischen Control Layer und Application Layer.  
+- Southbound-API: Kommunikation zwischen Control Layer und Infrastructure Layer.  
