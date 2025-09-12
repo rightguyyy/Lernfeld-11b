@@ -189,4 +189,4 @@ f) **IPS (Intrusion Prevention System)**
 System, das Angriffe erkennt und in Echtzeit aktiv blockiert.  
 
 g) **Proxy**  
-Vermittlungsserver, der Anfragen entgegennimmt, weiterleitet und Funktionen wie Filterung oder Anonymisierung ermöglicht.
+Vermittlungsserver, der Anfragen animmt, weiterleitet und Funktionen wie Filterung oder Anonymisierung ermöglicht.
