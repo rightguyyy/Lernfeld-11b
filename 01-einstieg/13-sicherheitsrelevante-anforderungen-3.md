@@ -28,7 +28,7 @@ englischen Informationstextes über SDN und Netzwerkvirtualisierung und
 bearbeiten Sie folgende Teilaufgaben.
 
 ::: {.frame}
-![](sdn.png)
+![](images/sdn.png)
 :::
 
 ::: {.frame}
