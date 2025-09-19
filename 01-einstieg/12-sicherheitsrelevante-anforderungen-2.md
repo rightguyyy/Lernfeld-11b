@@ -170,23 +170,23 @@ f)  IPS
 
 g)  Proxy
 
-a) **Aktive Netzwerkkomponenten**  
+a) Aktive Netzwerkkomponenten  
 Geräte, die Daten aktiv weiterleiten oder verarbeiten, z. B. Router, Switches, Firewalls.  
 
-b) **DHCP (Dynamic Host Configuration Protocol)**  
+b) DHCP (Dynamic Host Configuration Protocol)  
 Protokoll, das Endgeräten automatisch IP-Adressen und Netzwerkkonfigurationen zuweist.  
 
-c) **DMZ (Demilitarized Zone)**  
+c) DMZ (Demilitarized Zone)  
 Abgeschotteter Netzwerkbereich zwischen internem Netz und Internet, in dem öffentlich erreichbare Server stehen.  
 
-d) **DNS (Domain Name System)**  
+d) DNS (Domain Name System)  
 Dienst, der Domainnamen in IP-Adressen auflöst und so die Kommunikation im Internet ermöglicht.  
 
-e) **Firewall**  
+e) Firewall  
 Sicherheitskomponente, die Datenverkehr anhand von Regeln filtert und unzulässige Zugriffe blockiert.  
 
-f) **IPS (Intrusion Prevention System)**  
+f) IPS (Intrusion Prevention System)  
 System, das Angriffe erkennt und in Echtzeit aktiv blockiert.  
 
-g) **Proxy**  
+g) Proxy  
 Vermittlungsserver, der Anfragen animmt, weiterleitet und Funktionen wie Filterung oder Anonymisierung ermöglicht.

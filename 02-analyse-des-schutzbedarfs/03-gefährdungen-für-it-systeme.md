@@ -24,11 +24,11 @@ a)  Ihr Vorgesetzter bittet Sie, ein Konzept mit Zutrittsberechtigungen
     Zutritt zum Serverraum haben muss. Er bittet Sie, die Auswahl zu
     begründen. Verwenden Sie die nachfolgende Tabelle.
 
-    | Personen | Begründung |
-    |----|----|
-    | Administratoren der Server | Um Wartungsarbeiten am Server vornehmen zu können |
-    | Geschäftsleitung |  |
-    | IT-Mitarbeiter für Bandsicherung |  |
+    |Personen                                | Begründung                                           |
+    |                                        |                                                      |
+    | Administratoren der Server             | Um Wartungsarbeiten am Server vornehmen zu können    |
+    | Geschäftsleitung                       |  Entscheidungsbefugnis, Notfälle                     |
+    | IT-Mitarbeiter für Bandsicherung       |  Backup und Wiederherstellung von Daten              |
 
 <!-- -->
 
@@ -39,6 +39,11 @@ b)  Nachdem im ersten Schritt die Berechtigten festgelegt wurden, bittet
     Serverraum". Notieren Sie die Anforderungen in Bezug auf die
     Zutrittskontrolle.
 
+    Zutritt nur für autorisierte Personen
+    Dokumentation von Zutritten (Protokoll)
+    Physische Sicherung: abschließbare Türen, Videoüberwachung optional
+    Notfallregelungen (z. B. Rettungswege, Panikschlösser)
+
 <!-- -->
 
 c)  Der Kunde wünscht eine Regelung der Zutrittskontrolle für den
@@ -47,6 +52,12 @@ c)  Der Kunde wünscht eine Regelung der Zutrittskontrolle für den
 
     Formulieren Sie in Partnerarbeit Fragen, die bei der Einführung
     eines solchen Systems geklärt werden müssen.
+
+    Wer erhält Token und wie wird die Vergabe dokumentiert?
+    Was passiert bei Verlust oder Diebstahl eines Tokens?
+    Wie lange gilt die Berechtigung?
+    Werden Zutritte protokolliert und wie lange gespeichert?
+    Gibt es Notfallzugänge oder Ausnahmen?
 
 ## Aufgabe 2
 
@@ -60,12 +71,17 @@ filmen. Die Daten werden nach einem Tag überschrieben.
 a)  Ermitteln Sie die nötige Datenmenge in TiB (gerundet auf 2
     Nachkommastellen).
 
-<!-- -->
+    Auflösung: 1024 × 768 × 8 Bit = 6.291.456 Bit ≈ 0,75 MB pro Frame
+    30 fps → 0,75 MB × 30 × 60 × 60 × 24 ≈ 1,94 TB pro Kamera
+    3 Kameras → 1,94 × 3 ≈ 5,82 TB pro Tag
 
 b)  Die Kameras sollen gegen Vandalismus geschützt sein. Recherchieren
     Sie, was unter einem IK-Stoßfestigkeitsgrad verstanden wird, und
     entscheiden Sie sich begründet für eine Schutzart, die Sie gegen
     Vandalismus einsetzen möchten.
+
+    IK = Schutz gegen mechanische Stöße (Vandalismus)
+    Empfehlung: IK10 für maximale Stoßfestigkeit gegen Schläge und Würfe
 
 ## Aufgabe 3
 
@@ -81,3 +97,11 @@ Rechenzentrum.
 
 Recherchieren Sie in Partnerarbeit Gründe für die Mindestentfernung von
 200 km zwischen den Rechenzentren.
+
+Mindestentfernung von 200 km zwischen Rechenzentren
+
+Reduziert Risiko, dass Naturkatastrophen (Hochwasser, Brand, Stromausfall) beide Standorte gleichzeitig treffen
+
+Erhöht Verfügbarkeit und Ausfallsicherheit
+
+Sicherstellung georedundanter Backups
