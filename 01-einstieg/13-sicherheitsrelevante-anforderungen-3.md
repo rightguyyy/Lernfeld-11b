@@ -19,7 +19,7 @@ So lassen sich Verbindungsprobleme oder Paketverluste erkennen.
 b) nslookup
 Mit `nslookup` lassen sich DNS-Abfragen durchführen.  
 Man kann prüfen, welche IP-Adresse zu einem Domainnamen gehört oder umgekehrt.  
-Das hilft, DNS-Probleme zu analysieren.  
+Das hilft, DNS-Probleme zu aktivieren.
 
 c) tracert / traceroute 
 Mit `tracert` (Windows) bzw. `traceroute` (Linux/Unix) wird der Weg der Pakete zum Zielrechner angezeigt.  
