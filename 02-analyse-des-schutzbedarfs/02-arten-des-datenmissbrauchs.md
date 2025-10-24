@@ -118,4 +118,4 @@ f)  Beschreiben Sie warum nach einem Ransomware-Angriff in der Regel
 g)  Beschreiben Sie den Begriff „Ransomware-as-a-Service (RaaS)" und
     warum dadurch eine Analyse der Angreifer erschwert wird.
 
-    RaaS = Ransomware als Dienst, Angreifer bleiben anonym, Ermittlungen schwer
+    RaaS = Ransomware als Dienst, Angreifer bleiben anonym, Ermittlungen sind schwer

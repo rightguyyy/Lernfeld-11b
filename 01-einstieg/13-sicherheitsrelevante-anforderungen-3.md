@@ -11,7 +11,7 @@ title: Netzwerk -- Sicherheitsrelevante Anforderungen 3
 
 Erläutern Sie folgende drei Befehle der Betriebssystem-Kommandozeile.
 
-a) ping* 
+a) ping 
 Mit `ping` wird geprüft, ob ein Zielrechner im Netzwerk erreichbar ist.  
 Es sendet ICMP-Echo-Anfragen und misst die Antwortzeit.  
 So lassen sich Verbindungsprobleme oder Paketverluste erkennen.  
