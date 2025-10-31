@@ -124,4 +124,5 @@ Benennen Sie mindestens zwei Szenarien für jede Branche im Bereich
 
 ## Aufgabe 4
 
-Notieren Sie wesentliche Aspekte aus dem Abschnitt 3.2.1.
+Notieren Sie wesentliche Aspekte aus dem Abschnitt 3.2.1 im grünen Buch
+(S. 183--184).
