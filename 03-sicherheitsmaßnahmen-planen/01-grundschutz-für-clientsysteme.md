@@ -7,29 +7,23 @@ subtitle: Lernfeld 11b -- Betrieb und Sicherheit vernetzter Systeme
 title: Grundschutz für Clientsysteme planen
 ---
 
-::: {.task}
 ## Aufgabe 1
 
 Ein Kunde möchte den Schutz seiner Endgeräte überarbeiten.
 
-a)  ::: {.subtask}
-    Für einen sinnvollen Schutz des Endgeräts ist die Zugriffsregelung
+a)  Für einen sinnvollen Schutz des Endgeräts ist die Zugriffsregelung
     auf die Geräte von hoher Bedeutung. Recherchieren Sie drei Methoden,
     den Zugriff auf ein Gerät zu regeln.
-    :::
 
 <!-- -->
 
-b)  ::: {.subtask}
-    Die Daten eines Endsystems müssen gesichert werden. Dazu werden
+b)  Die Daten eines Endsystems müssen gesichert werden. Dazu werden
     regelmäßige Backups erstellt. Entscheiden Sie, welche Art von Daten
     eines Benutzerendsystems mittels Backup gesichert werden sollen.
-    :::
 
 <!-- -->
 
-c)  ::: {.subtask}
-    Bei mobilen Endgeräten ist eine Verschlüsselung der eingebauten
+c)  Bei mobilen Endgeräten ist eine Verschlüsselung der eingebauten
     Datenträger sinnvoll. Bei Verlust z. B. durch Diebstahl eines
     Gerätes führt so auch ein physischer Zugriff auf die Speichermedien
     nicht zu unberechtigtem Lesen der Daten.
@@ -37,12 +31,10 @@ c)  ::: {.subtask}
     Diskutieren Sie innerhalb der Gruppe, ob die Verschlüsselung von
     Datenträgern auch bei stationären Geräten sinnvoll ist. Sammeln Sie
     Pro- und Kontra-Argumente.
-    :::
 
 <!-- -->
 
-d)  :::: {.subtask}
-    Zur Erhöhung der Güte des Passworts sollen bestimmte Passwortregeln
+d)  Zur Erhöhung der Güte des Passworts sollen bestimmte Passwortregeln
     bezüglich Länge und Passwortraum verwendet werden.
 
     Füllen Sie die nachfolgende Tabelle aus. Geben Sie jeweils die
@@ -61,38 +53,26 @@ d)  :::: {.subtask}
     | 12 | Zahlen und Buchstaben; groß, klein, Sonderzeichen; 94 Zeichen |  |  |
     | 16 | Zahlen und Buchstaben; groß, klein, Sonderzeichen; 94 Zeichen |  |  |
     :::
-    ::::
 
 <!-- -->
 
-e)  ::: {.subtask}
-    Ein Auszubildender aus dem ersten Ausbildungsjahr bittet Sie um eine
+e)  Ein Auszubildender aus dem ersten Ausbildungsjahr bittet Sie um eine
     Erklarung zur Funktionsweise eines Virenscanners.
 
     Erstellen Sie einen Programmablaufplan, der die Funktionsweise eines
     Virenscanners abbildet Beginnen Sie mit dem Ereignis »Datei wird vom
     Scanner eingelesen«.
-    :::
-:::
 
-::: {.task}
 ## Aufgabe 2
 
 Beschreiben Sie, was unter der Trennung von Betriebssystem- und
 Datenadministration verstanden wird.
-:::
 
-::: {.task}
 ## Aufgabe 3
 
-a)  ::: {.subtask}
-    Geben Sie mindestens drei Aspekte an, die beim
+a)  Geben Sie mindestens drei Aspekte an, die beim
     Aktualisierungsmanagement zu beachten sind.
-    :::
 
 <!-- -->
 
-b)  ::: {.subtask}
-    Nennen Sie Möglichkeiten, um Windows-Clients aktuell zu halten.
-    :::
-:::
+b)  Nennen Sie Möglichkeiten, um Windows-Clients aktuell zu halten.
