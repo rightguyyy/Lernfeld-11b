@@ -6,11 +6,16 @@ subtitle: Lernfeld 11b -- Betrieb und Sicherheit vernetzter Systeme
   gewährleisten
 title: Grundschutz für Clientsysteme planen
 ---
+<<<<<<< HEAD
  
 ::: {.task}
+=======
+
+>>>>>>> 220f8e44ddc6d0f728bc8e416cd6b81522fce93a
 ## Aufgabe 1
  
 Ein Kunde möchte den Schutz seiner Endgeräte überarbeiten.
+<<<<<<< HEAD
  
 a)  ::: {.subtask}
     Für einen sinnvollen Schutz des Endgeräts ist die Zugriffsregelung
@@ -43,6 +48,22 @@ E-Mails und lokale Datenbanken
  
 c)  ::: {.subtask}
     Bei mobilen Endgeräten ist eine Verschlüsselung der eingebauten
+=======
+
+a)  Für einen sinnvollen Schutz des Endgeräts ist die Zugriffsregelung
+    auf die Geräte von hoher Bedeutung. Recherchieren Sie drei Methoden,
+    den Zugriff auf ein Gerät zu regeln.
+
+<!-- -->
+
+b)  Die Daten eines Endsystems müssen gesichert werden. Dazu werden
+    regelmäßige Backups erstellt. Entscheiden Sie, welche Art von Daten
+    eines Benutzerendsystems mittels Backup gesichert werden sollen.
+
+<!-- -->
+
+c)  Bei mobilen Endgeräten ist eine Verschlüsselung der eingebauten
+>>>>>>> 220f8e44ddc6d0f728bc8e416cd6b81522fce93a
     Datenträger sinnvoll. Bei Verlust z. B. durch Diebstahl eines
     Gerätes führt so auch ein physischer Zugriff auf die Speichermedien
     nicht zu unberechtigtem Lesen der Daten.
@@ -50,6 +71,7 @@ c)  ::: {.subtask}
     Diskutieren Sie innerhalb der Gruppe, ob die Verschlüsselung von
     Datenträgern auch bei stationären Geräten sinnvoll ist. Sammeln Sie
     Pro- und Kontra-Argumente.
+<<<<<<< HEAD
     :::
  
 A:
@@ -65,6 +87,12 @@ A:
  
 d)  :::: {.subtask}
     Zur Erhöhung der Güte des Passworts sollen bestimmte Passwortregeln
+=======
+
+<!-- -->
+
+d)  Zur Erhöhung der Güte des Passworts sollen bestimmte Passwortregeln
+>>>>>>> 220f8e44ddc6d0f728bc8e416cd6b81522fce93a
     bezüglich Länge und Passwortraum verwendet werden.
  
     Füllen Sie die nachfolgende Tabelle aus. Geben Sie jeweils die
@@ -73,6 +101,7 @@ d)  :::: {.subtask}
     wenn Sie 1 000 000 000 Passwörter pro Sekunde ausprobieren können.
  
     ::: {text="xs"}
+<<<<<<< HEAD
  
 A:
  
@@ -91,11 +120,28 @@ A:
  
 e)  ::: {.subtask}
     Ein Auszubildender aus dem ersten Ausbildungsjahr bittet Sie um eine
+=======
+    | Passwortlänge | Passwortzeichen | Anzahl Passwörter | benötigte Zeit für das »Knacken« |
+    |----|----|----|----|
+    | 8 | Zahlen | 100.000.000 | \< 1s |
+    | 12 | Zahlen | 1.000.000.000.000 | 500 s--8,3 min (durchschnittlich wird nur die Hälfte der Zeit benötigt) |
+    | 8 | Zahlen und Buchstaben; groß, klein; 62 Zeichen |  |  |
+    | 12 | Zahlen und Buchstaben; groß, klein; 62 Zeichen |  |  |
+    | 8 | Zahlen und Buchstaben; groß, klein, Sonderzeichen; 94 Zeichen |  |  |
+    | 12 | Zahlen und Buchstaben; groß, klein, Sonderzeichen; 94 Zeichen |  |  |
+    | 16 | Zahlen und Buchstaben; groß, klein, Sonderzeichen; 94 Zeichen |  |  |
+    :::
+
+<!-- -->
+
+e)  Ein Auszubildender aus dem ersten Ausbildungsjahr bittet Sie um eine
+>>>>>>> 220f8e44ddc6d0f728bc8e416cd6b81522fce93a
     Erklarung zur Funktionsweise eines Virenscanners.
  
     Erstellen Sie einen Programmablaufplan, der die Funktionsweise eines
     Virenscanners abbildet Beginnen Sie mit dem Ereignis »Datei wird vom
     Scanner eingelesen«.
+<<<<<<< HEAD
     :::
 :::
  
@@ -111,10 +157,14 @@ Falls kein Treffer → Datei freigeben
 Optional: Heuristische Analyse → Bewertung verdächtigen Verhaltens
 Ergebnisprotokoll schreiben
  
+=======
+
+>>>>>>> 220f8e44ddc6d0f728bc8e416cd6b81522fce93a
 ## Aufgabe 2
  
 Beschreiben Sie, was unter der Trennung von Betriebssystem- und
 Datenadministration verstanden wird.
+<<<<<<< HEAD
 :::
  
 ::: {.task}
@@ -152,3 +202,14 @@ Windows Update / WSUS
 Microsoft Intune oder SCCM
 Gruppenrichtlinien mit zentraler Update-Steuerung
 Manuelle oder automatische Update-Funktion
+=======
+
+## Aufgabe 3
+
+a)  Geben Sie mindestens drei Aspekte an, die beim
+    Aktualisierungsmanagement zu beachten sind.
+
+<!-- -->
+
+b)  Nennen Sie Möglichkeiten, um Windows-Clients aktuell zu halten.
+>>>>>>> 220f8e44ddc6d0f728bc8e416cd6b81522fce93a
