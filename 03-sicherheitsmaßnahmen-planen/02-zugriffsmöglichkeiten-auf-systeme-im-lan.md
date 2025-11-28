@@ -177,17 +177,13 @@ c)  ::: {.subtask}
  
     | Nr. | Ziel-IP-Adresse | Quell-IP-Adresse | Ziel-Port | Quell-Port | Aktion |
     |-----|-----------------|------------------|-----------|------------|--------|
-    | 1   |                 |                  |           |            |        |
+    | 1   | any             | 192.168.0.15     | 443       | any        | DROP   |
     | 2   | any             | 192.168.0.0/24   | 443       | any        | ACCEPT |
     | 3   |                 |                  |           |            |        |
     | 4   | any             | any              | any       | any        | DROP   |
     | 5   |                 |                  |           |            |        |
  
     Geben Sie an, an welcher Stelle die Regel eingesetzt werden muss.
-    :::
-Antwort:
-→ Die Regel muss zwischen Regel 1 und 2 eingefügt werden.
-Sonst wird der HTTPS-Traffic durch die bestehende ACCEPT-Regel erlaubt.
 :::
 <!-- -->
  
