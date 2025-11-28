@@ -72,7 +72,7 @@ Bei einem Ihrer Kunden wurden Fensterscheiben beschädigt. Es kam zu
 keinen weiteren Folgen, da die Alarmanlage sofort aktiviert wurde.
 Trotzdem ist ein hoher Sachschaden entstanden. Es soll ein Videosystem
 angeschafft werden. Die drei Kameras sollen eine Auflösung von 1024 x
-768 mit einer Farbtmfe von 8 Bit besmzen Die Kameras sollen mit 30 fps
+768 mit einer Farbtiefe von 8 Bit besitzen Die Kameras sollen mit 30 fps
 filmen. Die Daten werden nach einem Tag überschrieben.
  
 a)  Ermitteln Sie die nötige Datenmenge in TiB (gerundet auf 2
